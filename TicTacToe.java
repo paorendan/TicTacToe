@@ -16,7 +16,7 @@ public class TicTacToe {
     public static Scanner in = new Scanner(System.in); // the input Scanner
     public static int board[][] = new int[0][0];//declare 3x3 board without adding new variable
     public static int player = 0;// player control
-    public static int boardRow=0,boardCol = 0;// player control
+    public static int boardRow=0,boardCol = 0;// board control
     public static int winner =0;// winner control
     public static int drawToken = 0;// max number of input should be 8 in 3x3 board
     /**
